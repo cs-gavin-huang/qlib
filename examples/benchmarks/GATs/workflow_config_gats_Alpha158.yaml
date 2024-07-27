@@ -1,8 +1,8 @@
 qlib_init:
-    provider_uri: "~/.qlib/qlib_data/cn_data"
+    provider_uri: "./qlib_data/cn_data"
     region: cn
-market: &market csi300
-benchmark: &benchmark SH000300
+market: &market all
+benchmark: &benchmark "000063.SZ"
 data_handler_config: &data_handler_config
     start_time: 2008-01-01
     end_time: 2020-08-01
